@@ -1,0 +1,255 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+    height: 800px;
+    width: 410px;
+    border-radius: 25px;
+    background-color: rgb(63, 61, 61);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.nav-bar {
+    display: inline-block;
+}
+
+img {
+    border-radius: 100px;
+    border-color: white;
+    margin: 30px;
+}
+
+.square {
+    display: inline-block;
+    border: 2px solid black;
+    height: 30px;
+    width: 28px;
+    margin-left: 190px;
+    position: relative;
+    bottom: 35px;
+    border-color: white;
+}
+
+.line {
+    display: inline-block;
+    border: 1px solid black;
+    width: 15px;
+    rotate: 35deg;
+    position: relative;
+    top: 13px;
+    left: 14px;
+    border-color: white;
+}
+
+.line1 {
+    display: inline-block;
+    border: 1px solid black;
+    width: 15px;
+    rotate: 145deg;
+    right: 0px;
+    bottom: 5px;
+    position: relative;
+    border-color: white;
+}
+
+.symbol {
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    right: 420px;
+}
+
+.name {
+    display: inline-block;
+    margin-left: 170px;
+    position: relative;
+    bottom: 33px;
+}
+
+.option {
+    display: inline-block;
+    margin-left: 75px;
+    position: relative;
+    bottom: 34px;
+}
+
+.content {
+    display: inline-block;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(116, 114, 114);
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.circle {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(7, 187, 187);
+    border-radius: 150px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.footprints {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.small-box {
+    display: inline-block;
+    background-color: rgb(116, 114, 114);
+    height: 160px;
+    width: 80px;
+    margin-left: 35px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.sphere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(7, 187, 187);
+    position: relative;
+}
+
+.sphere1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(116, 114, 114);
+    position: absolute;
+}
+
+.sphere2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(63, 61, 61);
+    position: absolute;
+}
+
+.item1 {
+    position: relative;
+    top: 0;
+    font-size: 1.5em;
+}
+
+.calories, .miles, .minutes {
+    position: relative;
+    left: 20px;
+    bottom: 15px;
+}
+
+.small-box h2 {
+    position: relative;
+    left: 20px;
+}
+
+.content-2, .content-3 {
+    display: inline-block;
+}
+
+.box, .box1 {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    justify-items: center;
+    margin-left: 30px;
+    background-color: rgb(116, 114, 114);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.content-2 h3 {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+}
+
+.content-3 h3 {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+}
+
+.bpm, .steps {
+    display: inline-block;
+    position: relative;
+    right: 55px;
+    top: 8px;
+}
+
+.box p {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+}
+
+.box1 p {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+}
+
+.steps {
+    right: 63px;
+}
+
+.image-1, .image-2, .image-3, .image-4 {
+    display: inline-block;
+    margin-left: 25px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(116, 114, 114);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-1 {
+    position: relative;
+    left: 25px;
+}
+
+.image-2 {
+    position: relative;
+    left: 25px;
+}
+
+.image-3 {
+    position: relative;
+    left: 25px;
+}
+
+.image-4 {
+    position: relative;
+    left: 25px;
+}
